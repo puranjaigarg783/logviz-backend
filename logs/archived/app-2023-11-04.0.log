@@ -1,0 +1,122 @@
+2023-11-04 12:58:14,641 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-04 12:58:14,642 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 63175 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-11-04 12:58:14,643 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-11-04 12:58:15,234 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-11-04 12:58:15,239 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-11-04 12:58:15,239 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-04 12:58:15,239 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-11-04 12:58:15,281 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-04 12:58:15,281 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 622 ms
+2023-11-04 12:58:15,649 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 115072d3-666e-4cf5-9fbd-323bc132db14
+
+2023-11-04 12:58:15,694 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e426dd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@768f4b42, org.springframework.security.web.header.HeaderWriterFilter@592cb470, org.springframework.web.filter.CorsFilter@1a0ffb9b, org.springframework.security.web.authentication.logout.LogoutFilter@39514976, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d4ecdb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@521a506c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67c0c90b, org.springframework.security.web.session.SessionManagementFilter@5fa5c8cf, org.springframework.security.web.access.ExceptionTranslationFilter@68821f6]
+2023-11-04 12:58:15,789 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-11-04 12:58:15,796 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-11-04 12:58:15,866 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.375 seconds (JVM running for 1.738)
+2023-11-04 12:59:19,927 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-04 12:59:19,928 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-4] Initializing Servlet 'dispatcherServlet'
+2023-11-04 12:59:19,933 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-4] Completed initialization in 4 ms
+2023-11-04 12:59:19,957 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-4] HikariPool-1 - Starting...
+2023-11-04 12:59:20,008 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-4] HikariPool-1 - Start completed.
+2023-11-04 12:59:31,378 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-10300-exec-6] Request method 'GET' not supported
+2023-11-04 14:13:23,091 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-04 14:13:23,098 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-04 14:16:58,340 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-04 14:16:58,343 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 11039 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-11-04 14:16:58,343 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-11-04 14:16:58,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-11-04 14:16:58,907 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:16:58,908 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-04 14:16:58,908 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-11-04 14:16:58,957 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-04 14:16:58,957 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 598 ms
+2023-11-04 14:16:59,300 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4c854df6-7655-446c-ab41-1d5ddc307501
+
+2023-11-04 14:16:59,340 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b5b53c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@55d99dc3, org.springframework.security.web.header.HeaderWriterFilter@603f4e3e, org.springframework.web.filter.CorsFilter@2ec0ca83, org.springframework.security.web.authentication.logout.LogoutFilter@1a01ffff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37f71c05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@351d93bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3350ab4, org.springframework.security.web.session.SessionManagementFilter@1b1ea1d9, org.springframework.security.web.access.ExceptionTranslationFilter@12a6e8ed]
+2023-11-04 14:16:59,436 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:16:59,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-11-04 14:16:59,510 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.319 seconds (JVM running for 1.658)
+2023-11-04 14:17:01,804 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-04 14:17:01,804 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-04 14:17:01,805 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Completed initialization in 1 ms
+2023-11-04 14:17:01,838 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-4] HikariPool-1 - Starting...
+2023-11-04 14:17:01,897 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-4] HikariPool-1 - Start completed.
+2023-11-04 14:44:17,597 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-04 14:44:17,600 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-04 14:44:20,338 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-04 14:44:20,340 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 60574 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-11-04 14:44:20,342 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-11-04 14:44:20,861 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-11-04 14:44:20,864 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:44:20,864 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-04 14:44:20,864 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-11-04 14:44:20,902 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-04 14:44:20,902 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 543 ms
+2023-11-04 14:44:21,255 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: a17d06fe-8e50-4e3a-979e-805bdb82cf05
+
+2023-11-04 14:44:21,293 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d685f4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@12a6e8ed, org.springframework.security.web.header.HeaderWriterFilter@1e6cb932, org.springframework.web.filter.CorsFilter@61eab26b, org.springframework.security.web.authentication.logout.LogoutFilter@7bdb4f17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb44964, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c64339f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19ac93d2, org.springframework.security.web.session.SessionManagementFilter@d7055be, org.springframework.security.web.access.ExceptionTranslationFilter@3ba46845]
+2023-11-04 14:44:21,381 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:44:21,390 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-11-04 14:44:21,467 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.271 seconds (JVM running for 1.511)
+2023-11-04 14:44:51,671 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-04 14:44:51,671 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-04 14:44:51,672 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Completed initialization in 1 ms
+2023-11-04 14:44:51,687 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-10300-exec-1] Request method 'POST' not supported
+2023-11-04 14:44:54,776 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-3] HikariPool-1 - Starting...
+2023-11-04 14:44:54,855 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-3] HikariPool-1 - Start completed.
+2023-11-04 14:46:57,237 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-04 14:46:57,239 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-04 14:46:58,878 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-04 14:46:58,879 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 65287 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-11-04 14:46:58,879 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-11-04 14:46:59,420 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-11-04 14:46:59,423 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:46:59,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-04 14:46:59,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-11-04 14:46:59,461 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-04 14:46:59,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 565 ms
+2023-11-04 14:46:59,789 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: db87c67f-211e-4755-9c62-9785c65b7bd4
+
+2023-11-04 14:46:59,829 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50f3ba6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c7d8a4, org.springframework.security.web.header.HeaderWriterFilter@33430fc, org.springframework.web.filter.CorsFilter@319aa9ee, org.springframework.security.web.authentication.logout.LogoutFilter@4f6fd101, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a902015, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d18338b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d806de6, org.springframework.security.web.session.SessionManagementFilter@603f4e3e, org.springframework.security.web.access.ExceptionTranslationFilter@523abba9]
+2023-11-04 14:46:59,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:46:59,926 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-11-04 14:47:00,002 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.272 seconds (JVM running for 1.501)
+2023-11-04 14:47:18,940 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-04 14:47:18,940 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-04 14:47:18,941 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Completed initialization in 1 ms
+2023-11-04 14:47:18,965 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-2] HikariPool-1 - Starting...
+2023-11-04 14:47:19,014 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-2] HikariPool-1 - Start completed.
+2023-11-04 14:51:00,013 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-04 14:51:00,020 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-04 14:51:01,877 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-04 14:51:01,878 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 72444 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-11-04 14:51:01,879 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-11-04 14:51:02,408 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-11-04 14:51:02,412 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:51:02,412 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-04 14:51:02,412 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-11-04 14:51:02,451 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-04 14:51:02,451 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 556 ms
+2023-11-04 14:51:02,798 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 3257bbc4-d475-4ae5-833f-5a713fd4cd5e
+
+2023-11-04 14:51:02,840 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@160c7c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@55d99dc3, org.springframework.security.web.header.HeaderWriterFilter@603f4e3e, org.springframework.web.filter.CorsFilter@15371de2, org.springframework.security.web.authentication.logout.LogoutFilter@1a01ffff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37f71c05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@351d93bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5503c7d, org.springframework.security.web.session.SessionManagementFilter@1b1ea1d9, org.springframework.security.web.access.ExceptionTranslationFilter@12a6e8ed]
+2023-11-04 14:51:02,929 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-11-04 14:51:02,936 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-11-04 14:51:03,021 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.294 seconds (JVM running for 1.53)
+2023-11-04 14:51:05,323 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-04 14:51:05,323 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-04 14:51:05,324 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Completed initialization in 1 ms
+2023-11-04 14:51:05,343 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-2] HikariPool-1 - Starting...
+2023-11-04 14:51:05,395 INFO com.zaxxer.hikari.HikariDataSource [http-nio-10300-exec-2] HikariPool-1 - Start completed.
+2023-11-04 15:02:43,235 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-04 15:02:43,237 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

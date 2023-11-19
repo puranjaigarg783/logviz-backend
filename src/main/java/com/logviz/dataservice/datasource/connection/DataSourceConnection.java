@@ -1,4 +1,4 @@
-package com.logviz.dataservice.connection;
+package com.logViz.dataservice.datasource.connection;
 
 import com.logViz.dataservice.datasource.connection.impl.QueryResult;
 import com.logViz.dataservice.datasource.connection.impl.QueryRunMsg;

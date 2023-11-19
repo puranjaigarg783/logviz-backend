@@ -1,0 +1,94 @@
+2023-10-07 10:45:01,144 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-10-07 10:45:01,148 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 46434 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-10-07 10:45:01,148 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-10-07 10:45:01,712 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-10-07 10:45:01,715 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-10-07 10:45:01,716 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-07 10:45:01,716 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-10-07 10:45:01,757 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-07 10:45:01,757 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 587 ms
+2023-10-07 10:45:02,092 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5c86563f-4288-4fc6-b5e9-014660a2f84e
+
+2023-10-07 10:45:02,132 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d685f4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@ccd000e, org.springframework.security.web.header.HeaderWriterFilter@68821f6, org.springframework.web.filter.CorsFilter@61eab26b, org.springframework.security.web.authentication.logout.LogoutFilter@60844992, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43423d40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b1ea1d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19ac93d2, org.springframework.security.web.session.SessionManagementFilter@b8b2184, org.springframework.security.web.access.ExceptionTranslationFilter@195498aa]
+2023-10-07 10:45:02,234 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-10-07 10:45:02,241 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-10-07 10:45:02,308 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.321 seconds (JVM running for 1.645)
+2023-10-07 10:45:26,210 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 10:45:26,210 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-07 10:45:26,212 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Completed initialization in 2 ms
+2023-10-07 10:45:26,250 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-7] HikariPool-1 - Starting...
+2023-10-07 10:45:26,301 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-7] HikariPool-1 - Start completed.
+2023-10-07 10:49:21,725 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-07 10:49:21,727 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-07 10:49:23,442 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-10-07 10:49:23,443 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 54949 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-10-07 10:49:23,443 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-10-07 10:49:23,982 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-10-07 10:49:23,985 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-10-07 10:49:23,986 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-07 10:49:23,986 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-10-07 10:49:24,026 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-07 10:49:24,027 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 569 ms
+2023-10-07 10:49:24,373 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bfe0b012-f55f-4b89-a4f0-2527c2ffa866
+
+2023-10-07 10:49:24,415 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79c4f23b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fb44964, org.springframework.security.web.header.HeaderWriterFilter@5fa5c8cf, org.springframework.web.filter.CorsFilter@160c7c42, org.springframework.security.web.authentication.logout.LogoutFilter@2bcb1414, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e2824b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd8a273, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15371de2, org.springframework.security.web.session.SessionManagementFilter@6200b644, org.springframework.security.web.access.ExceptionTranslationFilter@b8b2184]
+2023-10-07 10:49:24,512 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-10-07 10:49:24,518 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-10-07 10:49:24,585 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.293 seconds (JVM running for 1.543)
+2023-10-07 10:49:31,362 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 10:49:31,362 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-07 10:49:31,363 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-2] Completed initialization in 1 ms
+2023-10-07 10:49:31,396 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-8] HikariPool-1 - Starting...
+2023-10-07 10:49:31,455 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-8] HikariPool-1 - Start completed.
+2023-10-07 10:53:51,743 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-07 10:53:51,745 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-07 15:49:12,270 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-10-07 15:49:12,272 INFO org.springframework.boot.StartupInfoLogger [main] Starting BackendApplication using Java 20.0.2.1 on Puranjais-MacBook-Pro.local with PID 89838 (/Users/puranjaigarg/projects/usfca/cs601/CS601SideProject/target/classes started by puranjaigarg in /Users/puranjaigarg/projects/usfca/cs601/CS601SideProject)
+2023-10-07 15:49:12,272 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-10-07 15:49:12,869 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 10300 (http)
+2023-10-07 15:49:12,873 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-10300"]
+2023-10-07 15:49:12,874 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-07 15:49:12,874 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-10-07 15:49:12,915 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-07 15:49:12,916 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 627 ms
+2023-10-07 15:49:13,308 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 015179c7-a347-46ef-b84b-bc58addd1180
+
+2023-10-07 15:49:13,359 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a0ffb9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@63b4b9c6, org.springframework.security.web.header.HeaderWriterFilter@6921cfa, org.springframework.web.filter.CorsFilter@67c0c90b, org.springframework.security.web.authentication.logout.LogoutFilter@77856cc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a117dc2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@579f3c8e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8549c5f, org.springframework.security.web.session.SessionManagementFilter@768f4b42, org.springframework.security.web.access.ExceptionTranslationFilter@40a28bda]
+2023-10-07 15:49:13,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-10300"]
+2023-10-07 15:49:13,472 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 10300 (http) with context path '/data-service'
+2023-10-07 15:49:13,549 INFO org.springframework.boot.StartupInfoLogger [main] Started BackendApplication in 1.444 seconds (JVM running for 1.81)
+2023-10-07 15:49:19,787 INFO org.apache.juli.logging.DirectJDKLog [http-nio-10300-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 15:49:19,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-07 15:49:19,788 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-10300-exec-1] Completed initialization in 1 ms
+2023-10-07 15:49:19,826 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-2] HikariPool-1 - Starting...
+2023-10-07 15:49:19,886 INFO com.zaxxer.hikari.HikariDataSource [pool-1-thread-2] HikariPool-1 - Start completed.
+2023-10-07 16:05:06,894 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m16s834ms).
+2023-10-07 16:39:07,974 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s835ms).
+2023-10-07 17:02:50,164 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m42s86ms).
+2023-10-07 17:55:55,638 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m35s248ms).
+2023-10-07 18:41:26,051 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m30s413ms).
+2023-10-07 18:43:04,473 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s422ms).
+2023-10-07 18:51:06,329 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m1s856ms).
+2023-10-07 18:53:26,505 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s176ms).
+2023-10-07 18:56:05,314 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s591ms).
+2023-10-07 19:18:37,502 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m32s188ms).
+2023-10-07 19:40:38,231 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m729ms).
+2023-10-07 20:28:34,484 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m56s253ms).
+2023-10-07 21:03:44,775 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m10s291ms).
+2023-10-07 21:04:50,537 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s762ms).
+2023-10-07 21:11:08,538 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m18s).
+2023-10-07 21:15:26,868 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s331ms).
+2023-10-07 21:19:48,743 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m21s875ms).
+2023-10-07 21:23:54,945 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s202ms).
+2023-10-07 21:45:53,631 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m58s686ms).
+2023-10-07 21:47:36,908 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s277ms).
+2023-10-07 21:53:07,377 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m30s469ms).
+2023-10-07 22:18:15,649 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m8s271ms).
+2023-10-07 22:25:25,829 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m10s180ms).
+2023-10-07 22:50:01,601 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m35s773ms).

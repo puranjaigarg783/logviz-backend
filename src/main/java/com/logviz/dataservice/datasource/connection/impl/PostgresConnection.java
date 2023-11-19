@@ -1,4 +1,4 @@
-package com.logviz.dataservice.connection.impl;
+package com.logViz.dataservice.datasource.connection.impl;
 
 import com.logViz.dataservice.common.exception.DataSourceException;
 import com.logViz.dataservice.datasource.connection.DataSourceConnection;

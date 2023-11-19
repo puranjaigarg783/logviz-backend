@@ -1,10 +1,12 @@
-package com.logviz.dataservice.connection;
+package com.logViz.dataservice.datasource.connection;
+
+import com.logViz.dataservice.model.DataSource;
+import org.apache.commons.lang3.StringUtils;
 
 import com.logViz.dataservice.datasource.connection.impl.PostgresConnection;
-import com.logViz.dataservice.model.DataSource;
+
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 
 @Slf4j
 @Getter

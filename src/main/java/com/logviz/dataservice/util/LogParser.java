@@ -1,8 +1,8 @@
-package com.logviz.dataservice.util;
+package com.logViz.dataservice.util;
 
-import com.logViz.dataservice.model.LogAggregates;
-import com.logViz.dataservice.model.LogContext;
 import com.logViz.dataservice.model.LogEntry;
+import com.logViz.dataservice.model.LogContext;
+import com.logViz.dataservice.model.LogAggregates;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

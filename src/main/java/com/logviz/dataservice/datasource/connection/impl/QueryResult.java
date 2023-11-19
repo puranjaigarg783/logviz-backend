@@ -1,4 +1,4 @@
-package com.logviz.dataservice.connection.impl;
+package com.logViz.dataservice.datasource.connection.impl;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.logviz.dataservice.model;
+package com.logViz.dataservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

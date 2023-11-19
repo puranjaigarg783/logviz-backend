@@ -1,4 +1,4 @@
-package com.logviz.dataservice.connection.impl;
+package com.logViz.dataservice.datasource.connection.impl;
 
 public class QueryRunMsg {
 

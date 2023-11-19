@@ -1,0 +1,241 @@
+.
+├── README.md
+├── input
+│   ├── split_logs.zsh
+│   ├── testlogs.txt
+│   ├── week_37
+│   │   ├── Sep_11
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_09.txt
+│   │   │   ├── hour_13.txt
+│   │   │   └── hour_20.txt
+│   │   ├── Sep_12
+│   │   │   ├── hour_10.txt
+│   │   │   └── hour_22.txt
+│   │   ├── Sep_14
+│   │   │   ├── hour_11.txt
+│   │   │   ├── hour_12.txt
+│   │   │   └── hour_21.txt
+│   │   ├── Sep_15
+│   │   │   ├── hour_06.txt
+│   │   │   └── hour_20.txt
+│   │   └── Sep_16
+│   │       ├── hour_06.txt
+│   │       ├── hour_08.txt
+│   │       └── hour_21.txt
+│   ├── week_38
+│   │   ├── Sep_17
+│   │   │   └── hour_00.txt
+│   │   ├── Sep_18
+│   │   │   ├── hour_06.txt
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_08.txt
+│   │   │   ├── hour_10.txt
+│   │   │   ├── hour_13.txt
+│   │   │   ├── hour_15.txt
+│   │   │   ├── hour_16.txt
+│   │   │   └── hour_20.txt
+│   │   ├── Sep_19
+│   │   │   ├── hour_02.txt
+│   │   │   ├── hour_05.txt
+│   │   │   ├── hour_15.txt
+│   │   │   ├── hour_16.txt
+│   │   │   ├── hour_19.txt
+│   │   │   ├── hour_20.txt
+│   │   │   └── hour_22.txt
+│   │   ├── Sep_20
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_08.txt
+│   │   │   ├── hour_12.txt
+│   │   │   ├── hour_14.txt
+│   │   │   └── hour_22.txt
+│   │   ├── Sep_21
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_08.txt
+│   │   │   ├── hour_09.txt
+│   │   │   ├── hour_10.txt
+│   │   │   ├── hour_11.txt
+│   │   │   ├── hour_12.txt
+│   │   │   ├── hour_13.txt
+│   │   │   └── hour_15.txt
+│   │   ├── Sep_22
+│   │   │   ├── hour_03.txt
+│   │   │   ├── hour_06.txt
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_08.txt
+│   │   │   ├── hour_09.txt
+│   │   │   └── hour_10.txt
+│   │   └── Sep_23
+│   │       ├── hour_13.txt
+│   │       ├── hour_15.txt
+│   │       └── hour_18.txt
+│   ├── week_39
+│   │   ├── Sep_24
+│   │   │   └── hour_22.txt
+│   │   ├── Sep_25
+│   │   │   ├── hour_07.txt
+│   │   │   └── hour_13.txt
+│   │   ├── Sep_26
+│   │   │   └── hour_19.txt
+│   │   ├── Sep_27
+│   │   │   ├── hour_05.txt
+│   │   │   ├── hour_06.txt
+│   │   │   ├── hour_07.txt
+│   │   │   ├── hour_08.txt
+│   │   │   ├── hour_09.txt
+│   │   │   ├── hour_10.txt
+│   │   │   ├── hour_12.txt
+│   │   │   ├── hour_13.txt
+│   │   │   ├── hour_14.txt
+│   │   │   └── hour_18.txt
+│   │   ├── Sep_28
+│   │   │   ├── hour_05.txt
+│   │   │   ├── hour_09.txt
+│   │   │   ├── hour_13.txt
+│   │   │   ├── hour_17.txt
+│   │   │   └── hour_22.txt
+│   │   └── Sep_30
+│   │       └── hour_06.txt
+│   └── week_40
+│       ├── Oct_01
+│       │   ├── hour_00.txt
+│       │   └── hour_10.txt
+│       ├── Oct_02
+│       │   ├── hour_13.txt
+│       │   ├── hour_14.txt
+│       │   └── hour_19.txt
+│       ├── Oct_03
+│       │   └── hour_20.txt
+│       └── Oct_04
+│           └── hour_22.txt
+├── logs
+│   └── app.log
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── logViz
+│   │   │           └── dataservice
+│   │   │               ├── BackendApplication.java
+│   │   │               ├── aspect
+│   │   │               │   ├── LogRestApiFlow.java
+│   │   │               │   └── RestRequestLogAspect.java
+│   │   │               ├── common
+│   │   │               │   ├── exception
+│   │   │               │   │   ├── DataSourceException.java
+│   │   │               │   │   └── RestException.java
+│   │   │               │   └── validation
+│   │   │               │       ├── ValidDateRange.java
+│   │   │               │       └── validator
+│   │   │               │           └── DateRangeValidator.java
+│   │   │               ├── config
+│   │   │               │   ├── ApplicationConfiguration.java
+│   │   │               │   ├── RestExceptionHandler.java
+│   │   │               │   ├── WebConfig.java
+│   │   │               │   └── WebSecurityConfig.java
+│   │   │               ├── controller
+│   │   │               │   └── TestController.java
+│   │   │               ├── datasource
+│   │   │               │   └── connection
+│   │   │               │       ├── DataSourceConnection.java
+│   │   │               │       ├── DataSourceConnectionProvider.java
+│   │   │               │       └── impl
+│   │   │               │           ├── PostgresConnection.java
+│   │   │               │           ├── QueryResult.java
+│   │   │               │           └── QueryRunMsg.java
+│   │   │               ├── domain
+│   │   │               │   ├── ResponseError.java
+│   │   │               │   └── RestResponseContainer.java
+│   │   │               ├── model
+│   │   │               │   ├── DataSource.java
+│   │   │               │   ├── LogAggregates.java
+│   │   │               │   ├── LogContext.java
+│   │   │               │   └── LogEntry.java
+│   │   │               ├── repository
+│   │   │               │   └── TestRepository.java
+│   │   │               ├── service
+│   │   │               │   └── TestService.java
+│   │   │               └── util
+│   │   ├── main.iml
+│   │   └── resources
+│   │       ├── application-dev.properties
+│   │       ├── application.properties
+│   │       ├── logback-spring.xml
+│   │       └── queries.properties
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── logViz
+│       │           └── dataservice
+│       │               ├── BackendApplicationTests.java
+│       │               └── PostgresConnectionTest.java
+│       └── test.iml
+├── target
+│   ├── classes
+│   │   ├── application-dev.properties
+│   │   ├── application.properties
+│   │   ├── com
+│   │   │   └── logViz
+│   │   │       └── dataservice
+│   │   │           ├── BackendApplication.class
+│   │   │           ├── aspect
+│   │   │           │   ├── LogRestApiFlow.class
+│   │   │           │   └── RestRequestLogAspect.class
+│   │   │           ├── common
+│   │   │           │   ├── exception
+│   │   │           │   │   ├── DataSourceException.class
+│   │   │           │   │   └── RestException.class
+│   │   │           │   └── validation
+│   │   │           │       ├── ValidDateRange$List.class
+│   │   │           │       ├── ValidDateRange.class
+│   │   │           │       └── validator
+│   │   │           │           └── DateRangeValidator.class
+│   │   │           ├── config
+│   │   │           │   ├── ApplicationConfiguration.class
+│   │   │           │   ├── RestExceptionHandler.class
+│   │   │           │   ├── WebConfig.class
+│   │   │           │   └── WebSecurityConfig.class
+│   │   │           ├── controller
+│   │   │           │   └── TestController.class
+│   │   │           ├── datasource
+│   │   │           │   └── connection
+│   │   │           │       ├── DataSourceConnection$TestConnectionResult$TestConnectionResultBuilder.class
+│   │   │           │       ├── DataSourceConnection$TestConnectionResult.class
+│   │   │           │       ├── DataSourceConnection.class
+│   │   │           │       ├── DataSourceConnectionProvider.class
+│   │   │           │       └── impl
+│   │   │           │           ├── PostgresConnection.class
+│   │   │           │           ├── QueryResult.class
+│   │   │           │           └── QueryRunMsg.class
+│   │   │           ├── domain
+│   │   │           │   ├── ResponseError$ResponseErrorBuilder.class
+│   │   │           │   ├── ResponseError.class
+│   │   │           │   ├── RestResponseContainer$RestResponseContainerBuilder.class
+│   │   │           │   └── RestResponseContainer.class
+│   │   │           ├── model
+│   │   │           │   ├── DataSource$DataSourceBuilder.class
+│   │   │           │   ├── DataSource.class
+│   │   │           │   ├── LogAggregates$LogAggregatesBuilder.class
+│   │   │           │   ├── LogAggregates.class
+│   │   │           │   ├── LogContext$LogContextBuilder.class
+│   │   │           │   ├── LogContext.class
+│   │   │           │   ├── LogEntry$LogEntryBuilder.class
+│   │   │           │   └── LogEntry.class
+│   │   │           ├── repository
+│   │   │           │   └── TestRepository.class
+│   │   │           └── service
+│   │   │               └── TestService.class
+│   │   ├── generated
+│   │   ├── logback-spring.xml
+│   │   └── queries.properties
+│   └── test-classes
+│       ├── com
+│       │   └── logViz
+│       │       └── dataservice
+│       │           ├── BackendApplicationTests.class
+│       │           └── PostgresConnectionTest.class
+│       └── generated_tests
+└── tree.txt
+
+81 directories, 158 files
