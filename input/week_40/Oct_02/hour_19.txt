@@ -1,0 +1,13 @@
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]: 2023-10-02 19:58:46,331 INFO  [http-nio-10100-exec-6] org.apache.juli.logging.DirectJDKLog: Error parsing HTTP request header
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:  Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]: java.lang.IllegalArgumentException: Invalid character found in method name [0x030x000x000x130x0e0xe00x000x000x000x000x000x010x000x080x000x020x000x000x00...]. HTTP method names must be tokens
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+Oct 02 19:58:46 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at java.base/java.lang.Thread.run(Thread.java:829)

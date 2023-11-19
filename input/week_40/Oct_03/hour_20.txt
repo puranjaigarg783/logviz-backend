@@ -1,0 +1,18 @@
+Oct 03 20:25:31 ip-172-31-0-178.ap-south-1.compute.internal java[2437321]: 2023-10-03 20:25:31,129 WARN  [http-nio-10300-exec-1] org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler: Request method 'GET' not supported
+Oct 03 20:25:31 ip-172-31-0-178.ap-south-1.compute.internal java[2437321]: 2023-10-03 20:25:31,551 WARN  [http-nio-10300-exec-6] org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler: Request method 'GET' not supported
+Oct 03 20:25:31 ip-172-31-0-178.ap-south-1.compute.internal java[2437321]: 2023-10-03 20:25:31,563 WARN  [http-nio-10300-exec-4] org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler: Request method 'GET' not supported
+Oct 03 20:25:31 ip-172-31-0-178.ap-south-1.compute.internal java[2437321]: 2023-10-03 20:25:31,565 WARN  [http-nio-10300-exec-2] org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler: Request method 'GET' not supported
+Oct 03 20:25:32 ip-172-31-0-178.ap-south-1.compute.internal java[2437321]: 2023-10-03 20:25:32,022 WARN  [http-nio-10300-exec-9] org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler: Request method 'GET' not supported
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]: 2023-10-03 20:44:59,843 INFO  [http-nio-10100-exec-2] org.apache.juli.logging.DirectJDKLog: Error parsing HTTP request header
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:  Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]: java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xca0x010x000x000xc60x030x03"0x00n90x81 ]. HTTP method names must be tokens
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+Oct 03 20:44:59 ip-172-31-0-178.ap-south-1.compute.internal java[2434495]:         at java.base/java.lang.Thread.run(Thread.java:829)
