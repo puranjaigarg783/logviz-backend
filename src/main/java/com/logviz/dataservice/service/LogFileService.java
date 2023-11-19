@@ -2,7 +2,7 @@ package com.logViz.dataservice.service;
 
 import com.logViz.dataservice.model.LogEntry;
 import com.logViz.dataservice.repository.LogEntryRepository;
-import com.logViz.dataservice.util.LogParser;
+import com.logViz.dataservice.util.LogParserFinal;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -57,7 +57,7 @@ public class LogFileService {
         try {
             List<String> lines = Files.readAllLines(logFile.toPath());
             for (String logLine : lines) {
-                LogEntry logEntry = LogParser.parseLogEntry(logLine);
+                LogEntry logEntry = LogParserFinal.parseLogEntry(logLine);
                 if (logEntry != null) {
                     logEntryRepository.insert(logEntry);
                 }
